@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+*{
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: rgb(100,100,100);
+    font-family: 'Poiret One', cursive, helvetica;
+    font-size: 100%;
+    line-height: 1.3;
+}
+p{
+    font-size: 1.4rem;
+    margin: 0 0 24px 0;
+}
+header{
+    left: 35%;
+    position: fixed;
+    top: 2rem;
+    width: 25%;
+    z-index:100%;
+}
+
+nav ul{
+    list-style-type: none;
+    width: 100%;
+}
+nav li{
+    text-align: center;
+}
+
+nav li a{
+   background-color: black;
+   border: 2px solid #fff;
+   color:tomato;
+   font-size: 2rem;
+   padding: 10px;
+   text-decoration: none; 
+}
+.img-uno{
+    background-image: url('https://tinyurl.com/jp56xcg');
+}
+
+.img-dos{
+    background-image: url('https://tinyurl.com/gw9vvxs');
+}
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    max-width: 100%;
+    position: relative;
+}
